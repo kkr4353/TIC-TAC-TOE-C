@@ -1,6 +1,6 @@
 # TIC-TAC-TOE-C
  
-TITLE : Multiclient TIC-TAC-TOE
+# TITLE : Multiclient TIC-TAC-TOE
 
 					SKolla_KKanjula
 				
@@ -20,7 +20,7 @@ TITLE : Multiclient TIC-TAC-TOE
   
 In this project, we have implemented a multiclient tic tac toe with the help of socket programming in C. Multiple clients in the LAN can connect to the server using the hostname of the server through an assigned port and can play the game simultaneously. 
 
-#RULES :
+# RULES :
 
 The box the client wants to mark is represented by 'X' and for the server, it is represented by 'O'.
 
@@ -28,7 +28,7 @@ A player wins if all the three boxes in any row or column or diagonally have the
 
 If there is no chance of winning, the game will be tied.
 
-#FLOW : 
+# FLOW : 
 
 The client will be displayed a tic tac toe board initially and is prompted to enter row, column values separated by a comma for the box they want to mark. It will then send the row, column values along with the current board to the server. 
 
